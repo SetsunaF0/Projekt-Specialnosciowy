@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		background-color: #e8e8e8;
-		background-image: url("images/bg02.png");
+		background-image: url("images/pokemon.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1780,7 +1780,7 @@ input, select, textarea {
 	.button {
 		cursor: pointer;
 		background-color: #c94663;
-		background-image: url("images/bg01.png");
+		background-image: url("images/unnamed.png");
 		border-radius: 0.4em;
 		text-align: center;
 		box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 0.15);
@@ -1890,7 +1890,7 @@ input, select, textarea {
 			text-decoration: none;
 			color: inherit;
 			background-color: #e8e8e8;
-			background-image: url("images/bg02.png");
+			background-image: url("images/unnamed.png");
 			color: #565656;
 			margin: 0 0.4em 0 0;
 			border-radius: 0.4em;
@@ -2204,7 +2204,7 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		z-index: 10001;
-		background: #364050 url("images/bg01.png");
+		background: #364050 url("images/unnamed.png");
 	}
 
 		#titleBar .title {
@@ -2257,7 +2257,7 @@ input, select, textarea {
 				width: 50px;
 				height: 30px;
 				line-height: 30px;
-				background: #c94663 url("images/bg01.png");
+				background: #c94663 url("images/unnamed.png");
 				border-radius: 5px;
 				color: #fff;
 				text-align: center;
@@ -2335,7 +2335,7 @@ input, select, textarea {
 	#content {
 		position: relative;
 		background-color: #fff;
-		background-image: url("images/bg02.png");
+		background-image: url("images/pokemon.jpg");
 		width: 100%;
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;
@@ -2350,35 +2350,6 @@ input, select, textarea {
 		#content > .inner {
 			position: relative;
 			z-index: 1;
-		}
-
-/* Copyright */
-
-	#copyright {
-		list-style: none;
-		padding-bottom: 2em;
-		padding-left: 0;
-	}
-
-		#copyright li {
-			padding-left: 0;
-		}
-
-		#copyright p {
-			opacity: 0.75;
-		}
-
-		#copyright a {
-			color: inherit !important;
-		}
-
-		#copyright:before {
-			content: '';
-			border-top: solid 1px;
-			border-bottom: solid 1px;
-			border-color: rgba(0, 0, 0, 0.25);
-			box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.075), 0px 1px 0px 0px rgba(255, 255, 255, 0.075);
-			display: block;
 		}
 
 /* Desktop */
